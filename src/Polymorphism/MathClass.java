@@ -3,7 +3,7 @@ package Polymorphism;
 public class MathClass extends Calculate {
 	
 	
-	public int sum(int a, int b, int c)
+	public static int sum(int a, int b, int c)
 	{
 		System.out.println("Child class method");
 		

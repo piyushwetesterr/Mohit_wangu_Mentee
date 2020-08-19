@@ -3,7 +3,7 @@ package Polymorphism;
 public class Calculate {
 	
 	
-	public void sum(int a, int b)
+	public static void sum(int a, int b)
 	{	
 		int sum = a+b;
 		
@@ -11,7 +11,7 @@ public class Calculate {
 	}
 	
 	
-	public void sum(float a, float b)
+	public static void sum(float a, float b)
 	{
 		
 		float sum = a+b;
@@ -21,7 +21,7 @@ public class Calculate {
 	}
 	
 	
-	public int sum(int x, int y, int z)
+	public static int sum(int x, int y, int z)
 	{
 		int sum = x+y+z;
 		
