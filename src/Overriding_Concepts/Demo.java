@@ -12,8 +12,8 @@ class Parent {
 
 class Child extends Parent {
 	public String display() { // display method is being overridden in the child class using co-variant return type
-							 // also the co-variant return types can be parent to child only and not parent to child
-								// i.e Parent class method can have an Object type and child class method can have String type but vice-versa is not allowed
+							 // also the co-variant return types can be parent to child only and not child to parent in the over-ridden method
+								// e.g. Parent class method can have an Object type and child class method can have String type but vice-versa is not allowed
 
 		System.out.println("Child call");
 		return "abcd";
@@ -27,7 +27,7 @@ class Grandchild extends Parent {
 	public StringBuffer display() // display method is being overridden in the child class using covariant return
 									// type which is permitted onwards from Java version 1.5
 	
-									//MEANING : return types of overridden methods can be having a parent child re
+									//MEANING : return types of overridden methods can be having a parent-child relation
 	{
 		System.out.println("Grandchild calling");
 		

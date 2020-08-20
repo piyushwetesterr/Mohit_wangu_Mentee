@@ -30,7 +30,7 @@ public class Overloading_5 {
 		
 		//ol.m1(10.5f, 10.5f); // error as conversion from float to int cant be done
 		
-		//ol.m1(10, 10); // ambigous call
+		//ol.m1(10, 10); // ambigous call as type conversion is possible
 		
 	}
 

@@ -32,7 +32,7 @@ class Demo12 {
 
 }
 
-class Demo13 extends Demo10 {
+class Demo13 extends Demo12 {
 
 	public void m() // widening of visibility is permitted; same as in case of interfaces
 	{

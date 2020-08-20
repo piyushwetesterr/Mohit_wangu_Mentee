@@ -10,7 +10,7 @@ class Demo17 {
 }
 
 class Demo18 extends Demo17 {
-	public int display(int... i) { // as this method is not var-arg type so there is no over-riding here but overloading instead; if changed to var-arg it will be
+	public int display(int i) { // as this method is not var-arg type so there is no over-riding here but overloading instead; if changed to var-arg it will be
 								//over-riding
 		System.out.println("Child");
 		return i;

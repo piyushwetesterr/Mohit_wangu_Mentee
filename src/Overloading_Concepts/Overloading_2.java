@@ -4,23 +4,24 @@ public class Overloading_2 {
 	
 	
 	
-	public void m1(Object o)
+	private void m1(Object o)
 	{
 		System.out.println("Object version");
 		
 	}
 	
 	
-//	public void m1(String a)
-//	{
-//		System.out.println("String version");
-//		
-//	}
+	final void m1(String a)
+	{
+		System.out.println("String version");
+		
+	}
 	
 	
-	public void m1(int p)
+	static int m1(int p)
 	{
 		System.out.println("integer version");
+		return p;
 		
 	}
 	
