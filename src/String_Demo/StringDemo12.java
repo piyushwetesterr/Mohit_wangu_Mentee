@@ -12,7 +12,7 @@ public class StringDemo12 {
 		System.out.println(sb);
 		
 		
-		sb = new StringBuffer("not_allowed"); // CTE as sb is final declared above
+		//sb = new StringBuffer("not_allowed"); // CTE as sb is final declared above
 		
 		
 		//final variable : valid
