@@ -1,4 +1,4 @@
-package Collections;
+package Collections_Demo;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -21,16 +21,18 @@ public class ArrayListDemo2 {
 		while (itr.hasNext()) {
 			Integer I = (Integer) itr.next();
 
-			if (I % 2 == 0) {
-				System.out.print(" "+I);
-			}
+			if (I % 2 != 0) {
+				//System.out.print(" "+I);
+			//}
 
-			else
+			//else
 				itr.remove();
 		}
 
-		//System.out.println(al);
+		
 		
 	}
+		System.out.println(al);
+}
 
 }
